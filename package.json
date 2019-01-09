@@ -1,9 +1,9 @@
 {
   "name": "zilla-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Zilla Web Components",
   "module": "dist/esm/index.js",
-  "main": "dist/zilla-components.js",
+  "main": "dist/index.js",
   "unpkg": "dist/zilla-components.js",
   "types": "dist/types/components.d.ts",
   "collection": "dist/collection/collection-manifest.json",
