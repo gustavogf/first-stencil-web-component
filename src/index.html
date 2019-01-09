@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+  <script src="/build/zilla-components.js"></script>
+
+</head>
+<body>
+  <button>abrir</button>
+
+  <z-modal title="Título do modal">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quaerat recusandae ab magnam sit,
+    officia laborum voluptatum necessitatibus et suscipit quas minus, libero, quis atque laudantium quod,
+    qui consequatur in.
+  </z-modal>
+
+</body>
+
+<script>
+  var modal = document.querySelector("z-modal");
+  const body = document.querySelector('button');
+  body.addEventListener('click', () => {
+    modal.visible = true;
+  })
+
+
+
+
+
+
+
+  // modal.addEventListener("ok", function () {
+  //   console.log("ok");
+  // });
+  // modal.addEventListener("cancel", function () {
+  //   console.log("cancel");
+  // });
+</script>
+</html>
