@@ -1,6 +1,6 @@
 {
   "name": "zilla-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Zilla Web Components",
   "module": "dist/esm/index.js",
   "main": "dist/zilla-components.js",
